@@ -1,9 +1,12 @@
 import React from "react";
+import Header from "./Header";
+import SideNav from "./SideNav";
 
 function HomePage(){
     return (
-        <div>
-            <h1>Route Working</h1>
+        <div className="home-main-container">
+            <Header/>
+            <SideNav/>
         </div>
     )
 }
