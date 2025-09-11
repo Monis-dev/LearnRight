@@ -4,10 +4,11 @@ import "./SideNav.css"
 function SideNav(){
     return (
       <div className="sideNav-main-container">
-        <a href="/home">
-          <img src="" alt="" />
-        </a>
-        <p></p>
+        <div className="logo-icon">
+          <a href="/home">
+            <img src="" alt="" />
+          </a>
+        </div>
         <ul className="links-icon">
           <li className="home-icon">
             <a href="/home">
